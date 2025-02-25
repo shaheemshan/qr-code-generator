@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisestree Brands</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #000d1a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            background: radial-gradient(circle at center, #001f3f, #000d1a);
+            border-radius: 30px;
+            padding: 50px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            left: 30px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo img {
+            width: 50px;
+            margin-right: 10px;
+        }
+
+        .content {
+            color: white;
+            font-size: 2.5rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.2;
+            position: relative;
+            z-index: 2;
+        }
+
+        .highlight {
+            color: #fff;
+            position: relative;
+            z-index: 2;
+        }
+
+        .button {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 50px;
+            background: linear-gradient(135deg, #4c83ff, #6bd3b3);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 15px 30px;
+            border-radius: 50%;
+            text-align: center;
+            width: 120px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            transition: 0.3s;
+            z-index: 2;
+        }
+
+        .button:hover {
+            transform: translateX(-50%) scale(1.1);
+        }
+
+        .subtext {
+            font-size: 1rem;
+            color: #d1d1d1;
+            margin-top: 30px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Decorative Elements */
+        .wave {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+            background: transparent;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 50%;
+            filter: blur(5px);
+        }
+
+        .wave1 {
+            top: 20%;
+            left: 15%;
+        }
+
+        .wave2 {
+            top: 40%;
+            right: 10%;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="logo">
+            <img src="logo.png" alt="Wisestree Brands">
+            <h3 style="color:white;">Wisestree Brands</h3>
+        </div>
+        <div class="content">
+            DON'T JUST KEEP UP, <span class="highlight">OUTRUN</span>
+        </div>
+        <div class="button">LET'S TALK</div>
+        <div class="subtext">
+            Wisestree Brands is your trusted partner to help you Stand Out, Craft Sustainable Brand Strategies, and Create a lasting impression.
+        </div>
+
+        <!-- Decorative Waves -->
+        <div class="wave wave1"></div>
+        <div class="wave wave2"></div>
+    </div>
+
+</body>
+</html>
